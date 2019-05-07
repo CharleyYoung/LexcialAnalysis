@@ -1,0 +1,7 @@
+thread Thread1
+    {identifier_one+=>identifier_two};
+    identifier_two::identifier_three;
+    identifier_three->identifier4;
+    identifier4:identifier5;
+    identifier5=>50.0;
+end thread
